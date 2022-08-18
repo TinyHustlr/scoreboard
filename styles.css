@@ -1,0 +1,94 @@
+@font-face {
+    font-family: cursedtimer;
+    src: url("/fonts/cursedtimer.ttf");
+}
+
+body {
+    margin: 0;
+    
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 375px;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+#homebox {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background-color: black;
+}
+
+#guestbox {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background-color: black;
+}
+
+#home_title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 21px;
+    
+}
+
+#guest_title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 21px;
+    
+}
+
+#home_score {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 130px;
+
+    font-family: cursedtimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#guest_score {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 130px;
+
+    font-family: cursedtimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
