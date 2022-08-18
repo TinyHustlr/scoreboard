@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px
     
 }
 
@@ -23,6 +23,7 @@ h3 {
     height: 375px;
     background-color: #1B244A;
     text-align: center;
+    /* border-radius: 20px; */
 }
 
 #homebox {
@@ -32,6 +33,7 @@ h3 {
     left: 82px;
     top: 125px;
     background-color: black;
+    border-radius: 20px;
 }
 
 #guestbox {
@@ -41,6 +43,7 @@ h3 {
     left: 337px;
     top: 125px;
     background-color: black;
+    border-radius: 20px;
 }
 
 #home_title {
@@ -84,11 +87,39 @@ h3 {
     left: 355px;
     top: 130px;
 
-    font-family: cursedtimer;
+    font-family: 'cursedtimer';
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
     line-height: 127px;
     text-align: center;
     color: #F94F6D;
+}
+
+#btnhome {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    text-align: center;
+}
+
+#btnguest {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    text-align: center;
+}
+
+.btn {
+    font-family: cursedtimer;
+    background-color: transparent;
+    border: 2px solid rgb(126, 167, 206);
+    color: rgb(126, 167, 206);
+    border-radius: 10px;
+    height: 45px;
+    width: 45px;
 }
