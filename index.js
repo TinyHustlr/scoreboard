@@ -11,14 +11,8 @@ guest.textContent = guestScore
 home.style.color = "rgb(246, 1, 157)"
 guest.style.color = "rgb(246, 1, 157)"
 
-// Change text color for leader
-if (homeGreat > guestGreat) {
-    home.style.color = "blue"
-}
 
-if (guestGreat > homeGreat) {
-    guest.style.color = "blue"
-}
+
 
 // Scoring functions
 function home1() {
@@ -59,5 +53,13 @@ function newgame() {
     guestScore = 0
 }
 
+
+// // Change text color for leader
+
+if (homeScore > guestScore) {
+    home.style.color = "rgb(57, 21, 184)"
+} else if (guestScore > homeScore) {
+    guest.style.color = "rgb(57, 21, 184)"
+}
 
 
