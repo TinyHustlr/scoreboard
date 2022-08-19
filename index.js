@@ -35,3 +35,19 @@ function guest3() {
     guestscore += 3
     guest.textContent = guestscore
 }
+
+function newgame() {
+    home.textContent = 0
+    guest.textContent = 0
+    homescore = 0
+    guestscore = 0
+}
+
+if (homescore > guestscore) {
+    console.log("Home is winning")
+}
+
+
+if (guestscore > homescore) {
+    console.log("Guest is winning")
+}
