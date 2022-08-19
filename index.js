@@ -1,53 +1,63 @@
 let home = document.getElementById("home_score")
 let guest = document.getElementById("guest_score")
-let homescore = 0
-let guestscore = 0
+let homeScore = 0
+let guestScore = 0
 
-home.textContent = homescore
-guest.textContent = guestscore
+// Diplay initial scores as zero
+home.textContent = homeScore
+guest.textContent = guestScore
 
+// Initial Text color
+home.style.color = "rgb(246, 1, 157)"
+guest.style.color = "rgb(246, 1, 157)"
+
+// Change text color for leader
+if (homeGreat > guestGreat) {
+    home.style.color = "blue"
+}
+
+if (guestGreat > homeGreat) {
+    guest.style.color = "blue"
+}
+
+// Scoring functions
 function home1() {
-    homescore += 1
-    home.textContent = homescore
+    homeScore += 1
+    home.textContent = homeScore
 }
 
 function home2() {
-    homescore += 2
-    home.textContent = homescore
+    homeScore += 2
+    home.textContent = homeScore
 }
 
 function home3() {
-    homescore += 3
-    home.textContent = homescore
+    homeScore += 3
+    home.textContent = homeScore
 }
 
 function guest1() {
-    guestscore += 1
-    guest.textContent = guestscore
+    guestScore += 1
+    guest.textContent = guestScore
+    
 }
 
 function guest2() {
-    guestscore += 2
-    guest.textContent = guestscore
+    guestScore += 2
+    guest.textContent = guestScore
 }
 
 function guest3() {
-    guestscore += 3
-    guest.textContent = guestscore
+    guestScore += 3
+    guest.textContent = guestScore
 }
 
 function newgame() {
     home.textContent = 0
     guest.textContent = 0
-    homescore = 0
-    guestscore = 0
-}
-
-if (homescore > guestscore) {
-    console.log("Home is winning")
+    homeScore = 0
+    guestScore = 0
 }
 
 
-if (guestscore > homescore) {
-    console.log("Guest is winning")
-}
+
