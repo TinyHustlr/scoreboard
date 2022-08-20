@@ -79,7 +79,6 @@ h3 {
     height: 120px;
     left: 100px;
     top: 130px;
-
     font-family: cursedtimer;
     font-style: normal;
     font-weight: 400;
@@ -94,13 +93,40 @@ h3 {
     height: 120px;
     left: 355px;
     top: 130px;
-
     font-family: 'cursedtimer';
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
     line-height: 127px;
     text-align: center;
+}
+
+#home_foul {
+    position: absolute;
+    width: 29px;
+    height: 19px;
+    left: 202px;
+    top: 128px;
+    font-family: 'cursedtimer';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #009D00;
+}
+
+#guest_foul {
+    position: absolute;
+    width: 29px;
+    height: 19px;
+    left: 455px;
+    top: 128px;
+    font-family: 'cursedtimer';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #009D00;
 }
 
 #btnhome {
